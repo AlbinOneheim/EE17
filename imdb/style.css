@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Pompiere');
+
+body {
+    background-color: black;
+
+}
+h1, a, p {
+    color: white;
+    font-family: 'Pompiere', cursive;   
+}
