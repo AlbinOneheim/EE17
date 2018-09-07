@@ -1,0 +1,28 @@
+body {
+
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid #999999;
+}
+caption {
+    text-align: left;
+    background-color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+th {
+padding: 10px;
+border-bottom: 1px solid #999999;
+padding
+}
+tr {
+ 
+}
+td {
+padding: 10px;
+border-bottom: 1px solid #999999;
+}
+img {
+    width: 50px;
+}
