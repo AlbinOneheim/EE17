@@ -1,0 +1,26 @@
+body {
+    background: url(./bilder/palmer-strand-sol-bad-fiji-sol-badresor-fiji-soderhavsresor.jpg);
+    font-family: sans-serif;
+    color: white;
+    background-size: 1600px;
+}
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 130px 0 0 130px;
+}
+h2 {
+    font-size: 40px;
+    margin: 60px 0 300px 130px;
+}
+a {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background: purple;
+    text-decoration: none;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    margin-left: 1200px;
+    color: white;
+}
