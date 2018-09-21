@@ -29,13 +29,17 @@ body.box4 {
 body.box5 {
     background: url("./bilder/p5.jpg");
 }
-div {
+div
+ {
     width: 600px;
     background: #fff;
     border: 3px dashed #000;
     margin: 175px auto 0 auto;
     padding: 80px 10px 0 50px;
     border-radius: 10px;
+}
+div.ruta1 {
+   padding: 80px 10px 0 50px; 
 }
 div.ruta2 {
 
@@ -51,7 +55,7 @@ div.ruta4 {
 }
 div.ruta5 {
 
-    padding: 20px 10px 0 50px;
+    padding: 20px 10px 25px 50px;
 }
 
 }
@@ -65,9 +69,10 @@ p {
     font-size: 24px;
     color: #000;
     margin: 20px 0;
-}
+
 a {
-    text-decoration: none;
-    color: #000;
-    font-size: 40px;
+   text-decoration: none;
+     color: #000;
+    font-size: 40px; 
 }
+     
