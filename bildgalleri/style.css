@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Courgette|Slabo+27px');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
 }
+
 /* prettier-ignore */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
+
 /* prettier-ignore */
-body, h1, h2, h3, h4, h5, h6, p, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -16,32 +29,36 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 /* Sidans utseende */
 body {
     background: url("./bilder/daggros.jpg");
-    background-size: 5000px; 
+    background-size: 5000px;
     background-attachment: fixed;
 }
+
 div.kontainer {
     width: 800px;
     padding: 30px;
     color: #fff;
-    background-color: #AE0006;
-    margin: 150px auto;
+    background: linear-gradient(to bottom, #a90329 26%, #6d0019 81%);
+    margin: 110px auto;
     border-radius: 4px;
 }
+
 h1 {
     font-family: 'Courgette', cursive;
     font-size: 80px;
     text-align: center;
     text-shadow: 4px 0 10px #fff;
 }
+
 div.ros {
     font-family: 'Slabo 27px', serif;
     font-size: 18px;
-    background-color: #FB2108;
+    background: linear-gradient(to bottom, #f0b7a1 0%,#bf6e4e 40%,#bf6e4e 40%,#bf6e4e 60%,#8c3310 100%);
     border-radius: 4px;
     padding: 30px;
     margin-top: 20px;
 }
-img {
+
+img.ram {
     width: 400px;
     background: #FFF;
     padding: 10px;
@@ -49,21 +66,26 @@ img {
     border-radius: 4px;
     box-shadow: 4px 4px 10px #000;
 }
+
 p {
 
 }
+
 .vanster {
     float: left;
     margin-right: 30px;
 }
+
 .hoger {
     float: right;
-    margin-left: 30px; 
+    margin-left: 30px;
 }
+
 hr {
     clear: both;
     visibility: hidden;
 }
+
 .textHoger {
     text-align: right;
 }

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton|Roboto+Slab');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidans layout */
+body {
+    background-color: black;
+}
+.kontainer {
+ width: 800px;
+ background: grey;
+ padding: 40px;
+ margin: 20px auto;
+}
+
+/* Meny */
+ul {
+    padding: 10px;
+    text-align: center;
+}
+li {
+    display: inline;
+    list-style-type: none;
+}
+li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 7px 4px 4px 0 black;
+}
+li a:hover {
+    background: #89798e;
+}
+li a.current {
+    background: #c377d1;
+    color: #000000;
+}
+
+/* Sidans inehåll */
+h1 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    padding: 40px;  
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+    font-size: 50px;
+}
+img {
+    width: 700px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+p {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+.sidfot {
+
+}
