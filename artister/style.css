@@ -23,6 +23,7 @@ body {
  background: grey;
  padding: 40px;
  margin: 20px auto;
+ border-radius: 20px;
 }
 
 /* Meny */
@@ -33,6 +34,7 @@ ul {
 li {
     display: inline;
     list-style-type: none;
+    padding: 3px;
 }
 li a {
     padding: 5px 10px;
@@ -56,6 +58,8 @@ h1 {
     font-family: 'Monoton', cursive;
     padding: 40px;  
     font-size: 50px;
+    text-shadow: 4px 0 10px #fff
+    
 }
 h2 {
     text-align: center;
@@ -68,10 +72,13 @@ img {
     margin: auto;
     display: block;
     border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 4px 4px 5px 0;
 }
 p {
     font-family: 'Roboto Slab', serif;
     margin-top: 20px;
+    font-size: 15px;
 }
 .sidfot {
 

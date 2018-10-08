@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Armata|Denk+One');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* Layout och sidan utseende */
+body {
+    background: url(./bilder/bakgrund.jpg) no-repeat fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Denk One', sans-serif;
+    color: #00a6ad;;
+    border-bottom: 1px solid #00a6ad;
+    text-transform: uppercase;
+    width: 550px;
+    margin: 100px 0 30px 100px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+h2 {
+    font-family: 'Denk One', sans-serif;
+    color: #00a6ad;
+    margin: 0 0 10px 100px;
+}
+img {
+    border: 20px solid #a9e5e5;
+    border-radius: 10px;
+    width: 550px;
+    margin: 0 0 10px 100px;
+}
+p {
+    font-family: 'Armata', sans-serif;
+    background: #a9e5e5;
+    padding: 10px;
+    border-radius: 10px;
+    width: 550px;
+    font-size: 12px;
+    margin: 0 0 20px 100px;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+/* Utseende på */
+table {
+    font-family: 'Armata', sans-serif;
+    width: 550px;
+    margin: 0 0 0 100px;
+}
+th {
+    color: #00a6ad;
+    border-radius: 5px;
+    background: #a9e5e5;
+    padding: 20px;
+}
+td {
+    border: 2px solid #a9e5e5;
+    border: 2px solid margin: 0 0 0 100px;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
