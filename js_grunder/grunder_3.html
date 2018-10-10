@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder i Javascript</title>
+</head>
+<body>
+    <h1>Grunder i Javascript</h1>
+    <p id="adress">Hemlig adress</p>
+    <p id="mobil">Hemlig mobil</p>
+    <button onclick="visaAdress()">Visa adress</button>
+    <button onclick="visaMobil()">Visa mobil</button>
+    <p onclick="VisaEasterEgg()">Visa easter egg</p>
+    <script>
+        function visaAdress() {
+            var elardess = document.querySelector ('#adress');
+            elardess.textContent = 'Sköldgatan 12 11863 Södermalm';
+        }
+        function visaMobil() {
+            var eleMobil = document.querySelector ('#mobil'); 
+            eleMobil.textContent = '0702218032';
+        }
+        function VisaEasterEgg() {
+            var eleRubrik = document.querySelector ('h1')
+            eleRubrik.textContent = 'Eyy wallah jag svär på gud jag kommer ta dig efter skolan bre';
+            eleRubrik.style.color = 'blue';
+            var eleBody = document.querySelector('body');
+            eleBody.style.backgroundColor = '#000';
+            eleBody.style.backgroundImage = 'url("./bilder/Nuketown_2025_Load_Screen_BOII.png")';
+            eleRubrik.insertAdjacentHTML('afterend', '<img src="./bilder/giphy.gif">');
+        }
+    </script>
+</body>
+</html>
