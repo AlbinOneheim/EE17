@@ -1,30 +1,27 @@
-/* Våra globala variabler */
-/* Skapa ett slumptal mellan 1 oc 100 */
 var slumptal = Math.ceil(Math.random()* 100);
 var elementGissning = document.querySelector('#gissning');
 var elementSvar = document.querySelector('#svar');
 console.log('Nytt slumptal:' + slumptal);
-/* Reagera på när man trycker på knappen */
+var antal = 0;
 function gissa() {
-/* Läsa av gissningen i första input-rutan */
+    antal++;
     var gissning = elementGissning.value;
-/* Om gissning = slumptal, då har man vunnit */
+
     if (gissning == slumptal) {
-        var element = document.querySelector('#svar');
-        elemenSvar.value = 'Yippee! Du har vunnit äran!';
+        svar = '<p class="animated yipee">' + antal + ') ' + gissning + ' Yipee, du har vunnit!</p>';
+        elementSvar.insertAdjacentHTML('beforeend', svar);
     }
 
-/* Om gissning > slumptal, skriv ut "För högt" */
     if (gissning > slumptal) {
-        elementSvar.value = 'För högt!';
+        svar = '<p class="hogt">' + antal + ') ' + gissning + ' för högt!</p>';
+        elementSvar.insertAdjacentHTML( 'beforeend', svar);
     }
-/* Om gissning < slumptal, skriv ut "För lågt" */
     if (gissning < slumptal) {
-        elementSvar.value = 'För lågt!';
+        svar = '<p class="lagt">' + antal + ') ' + gissning + ' för lågt!</p>';
+        elementSvar.insertAdjacentHTML( 'beforeend', svar);
     }
-
-/* Om gissning > 100, skriv ut "Är du efterbliven!" */
     if (gissning > 100) {
-        elementSvar.value = 'Är du efterbliven!';
+        svar = '<p class="dum">' + antal + ') ' + gissning + ' är du efterbliven!</p>';
+        elementSvar.insertAdjacentHTML( 'beforeend', svar);
     }
 }   

@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Spel - gissa tal</h1>
-    <label>Gissa ett tal mellan 1 och 100.</label>
-    <input id="gissning" type="text"><br>
-    <label>Svar</label>
-    <input id="svar" type="text"><br>
-    <button onclick="gissa()">Gissa!</button>
-    <script src="gissa_tal.js"></script>
+    <div class="kontainer">
+        <h1>Spel - gissa tal</h1>
+        <label>Gissa ett tal mellan 1 och 100.</label>
+        <input id="gissning" type="text"><br>
+        <button onclick="gissa()">Gissa!</button>
+        <div id="svar" class="animated">
+            <p>Resultat</p>
+        </div>
+        <script src="gissa_tal.js"></script>
+    </div>
 </body>
 </html>
