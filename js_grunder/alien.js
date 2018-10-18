@@ -43,7 +43,7 @@ function start() {
         './bilder/astronaut-helmet-64x64.png',
         './bilder/earth-64x64.png'];
     function infogaSlumpBild() {
-        var slump = Math.ceil(Math.random() * 7);
+        var slump = Math.ceil(Math.random() * 7 - 1);
         elementDiv.innerHTML += '<img src="./' + bilder[slump] + '"alt="Bild">';
     }
 }
