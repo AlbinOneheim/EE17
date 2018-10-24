@@ -1,0 +1,28 @@
+body {
+    background: url(./bilder/grant-ritchie-338426-unsplash.jpg);
+    background-size: 1540px;
+}
+.kontainer {
+    width: 500px;
+    background: #e8e8e8;
+    margin: 50px auto;
+    padding: 15px;   
+}   
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+input {
+ padding: 1px;
+}
+.svar {
+
+}
+button:hover {
+    background: #f2f2f2;
+}
+h1, h3, p, button {
+    margin-left: 20px;
+}
