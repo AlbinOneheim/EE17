@@ -1,0 +1,40 @@
+:root
+body
+{
+    --svart: black;
+    --gra: grey;
+    text-align: center;
+    background: var(--gra);
+}
+button 
+{
+    width: 500px;
+    background: var(--svart);
+    border: 1px solid var(--svart);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+button:hover
+{
+    background: white;
+    color: var(--svart);
+    border: 1px solid white;
+}
+img
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+}  
+.lol
+{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}

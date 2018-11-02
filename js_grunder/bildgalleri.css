@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Krub');
+:root {
+    --svart: black;
+    --vit: white;
+}
 html {
     box-sizing: border-box;
 }
@@ -11,7 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 body {
-    background: black;
+    background: var(--svart);
 }
 .kontainer {
     background: lightgrey;
@@ -31,21 +35,22 @@ h1 {
     margin: auto;
 }
 .bild img {
-    border: 10px solid white;
+    border: 10px solid var(--vit);
     width: 100%;
 }
 .bild p {   
-    background: white;
+    background: var(--vit);
     padding: 5px;
 }
 button {
     border: none;
-    background: green;
-    color: white;
+    background: rgb(6, 110, 6);
+    color: var(--vit);
     border-radius: 5px;
     padding: 10px;
+    transition-duration: 1s;
 }
 button:hover {
-    background: lightgreen;
-    color: black;
+    background: #24dd24;
+    color: var(--majid);
 }

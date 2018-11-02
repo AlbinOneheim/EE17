@@ -1,6 +1,7 @@
 body {
     background: url(./bilder/grant-ritchie-338426-unsplash.jpg);
-    background-size: 1540px;
+    background-size: cover;
+    background-position: center;
 }
 .kontainer {
     width: 500px;
