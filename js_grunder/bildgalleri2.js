@@ -1,6 +1,6 @@
 function start() 
 {  
-    var p = document.querySelector(".bild p");
+    var p = document.querySelector(".bild span");
     var img = document.querySelector(".bild img");
     function change() 
     {
