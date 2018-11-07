@@ -1,7 +1,7 @@
 function start() 
 {  
-    var p = document.querySelector("p span");
-    var img = document.querySelector("img");
+    var p = document.querySelector(".bild p");
+    var img = document.querySelector(".bild img");
     function change() 
     {
         img.setAttribute("src", this.dataset.file);

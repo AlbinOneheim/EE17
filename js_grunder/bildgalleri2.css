@@ -45,7 +45,7 @@ h1
 .bild img 
 {
     border: 10px solid var(--vit);
-    width: 100%;
+    
     height: 500px;
 }
 .bild p 
@@ -53,17 +53,9 @@ h1
     background: var(--vit);
     padding: 5px;
 }
-button 
+.miniatyr 
 {
-    border: none;
-    background: rgb(6, 110, 6);
-    color: var(--vit);
     border-radius: 5px;
-    padding: 10px;
-    transition-duration: 1s;
-}
-button:hover 
-{
-    background: #24dd24;
-    color: var(--svart);
+    width: 50px;
+    border: 1px solid white;
 }
