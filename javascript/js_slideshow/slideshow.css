@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: black;
+}
+.container
+{
+    width: 800px;
+    text-align: center;
+    margin: 20px auto;
+}
+h1
+{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.space
+{
+    background: gray;    
+    height: 700px;
+    margin: 20px auto;
+}
+i
+{
+    margin-top: 350px; 
+    color: white;
+    font-size:  50px;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+i:hover
+{
+    color: rgb(201, 189, 189);
+}
+.fa-arrow-left
+{
+    float: left;
+    margin-left: 20px;
+}
+.fa-arrow-right
+{
+    float: right;
+    margin-right: 20px;
+}
