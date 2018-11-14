@@ -29,9 +29,10 @@ h1
 }
 .space
 {
-    background: gray;    
+    background: gray; 
     height: 700px;
     margin: 20px auto;
+    transition-duration: 800ms;
 }
 i
 {
