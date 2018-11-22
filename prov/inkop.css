@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #888;
+}
+.kontainer
+{
+    width: 450px;
+    padding: 20px;
+    background: url(./bilder/bg.png);
+    font-family: 'Great Vibes', cursive;
+    margin: 50px auto;
+}
+h1, h2, h3
+{
+    margin-top: 10px;
+}
+label
+{
+
+}
+input
+{
+    width: 100px;
+}
+button
+{
+
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+p
+{
+    margin-right: 50px;
+    padding: 10px;
+}
+.smaVara
+{
+    background: rgb(141, 221, 224);
+}
+.storaVara
+{  
+    background: rgb(141, 221, 224);
+}
+.smaTot
+{
+    background: rgb(141, 224, 161);
+}
+.storaTot
+{
+    background: rgb(141, 224, 161);
+}

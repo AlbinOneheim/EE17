@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kundvagn</title>
+    <link rel="stylesheet" href="kundvagn.css">
+    <script src="kundvagn.js" defer></script>
+</head>
+<body>
+    <div class="kontainer">
+        <h1>Kundvagn</h1>
+        <fieldset class="kundvagn">
+            <legend>Varor</legend>
+            <label>Skor</label>
+            <input class="vara" id="skorPris" type="text" value="789"><button id="skorPlus">+</button>
+            <input class="antal" id="skorAntal" type="text"><br>
+
+            <label>Byxa</label>
+            <input class="vara" id="byxaPris" type="text" value="1499"><button id="byxaPlus">+</button>
+            <input class="antal" id="byxaAntal" type="text"><br>
+
+            <label>Mössa</label>
+            <input class="vara" id="mossaPris" type="text" value="349"><button id="mossaPlus">+</button>
+            <input class="antal" id="mossaAntal" type="text"><br>
+
+            <hr>
+            <label>Frakt</label>
+            <input class="total" id="frakt" type="text"><br>
+            <label>Total</label>
+            <input class="total" id="total" type="text">
+        </fieldset>
+
+        <fieldset class="leverans">
+            <legend>Leverans</legend>
+            <input type="radio" value="49" name="levFrakt" checked><label>PostNord 49:-</label><br>
+            <input type="radio" value="29" name="levFrakt"><label>Schenker 29:-</label><br>
+            <input type="radio" value="99" name="levFrakt"><label>DHL 99:-</label>
+        </fieldset>
+    </div>
+</body>
+</html>
