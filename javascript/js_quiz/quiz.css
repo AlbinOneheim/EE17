@@ -1,0 +1,31 @@
+body
+{
+    background: #000;
+}
+.kontainer
+{
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    background: rgb(245, 231, 170);
+}
+h1
+{
+
+}
+p
+{
+
+}
+.ordet
+{
+
+}
+#svaret
+{
+    padding: 10px;
+}
+button
+{
+    padding: 10px;
+}
