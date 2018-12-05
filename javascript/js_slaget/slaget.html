@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slagskämpe</title>
+    <link rel="stylesheet" href="slaget.css">
+    <script src="slaget.js" defer></script>
+</head>
+<body>
+    <div class="kontainer">
+        <h1 id="vinster">Player1 0 - 0 Player2</h1>
+
+        <!-- Namn -->
+        <div class="sattnamn">
+            <h1>Sätt Namn</h1>
+            <h3>Player 1</h3>
+            <h3>Player 2</h3>
+            <input class="player1" type="text">
+            <input class="player2" type="text">
+            <button>Ready</button>
+        </div>
+
+        <!-- Spel -->
+        <div class="spel dold"> 
+            <!-- liv -->
+            <div class="liv player1">
+                <div class="fyllning"></div>
+                <h1>100</h1>
+            </div>
+            <div class="liv player2">
+                <div class="fyllning"></div>
+                <h1>100</h1>
+            </div>
+
+            <!-- karaktär -->
+            <img src="./bilder/1200px-Stick_Figure.svg.png" alt="." class="player1">
+            <img src="./bilder/1200px-Stick_Figure.svg.png" alt="." class="player2">
+
+            <!--  -->
+            <button class="start">Start</button>
+        </div>
+    </div>
+</body>
+</html>
