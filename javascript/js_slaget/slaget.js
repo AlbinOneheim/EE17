@@ -14,9 +14,14 @@ function start()
 
     const eKnappStart = document.querySelector(".spel button");
 
+    const eP = document.querySelector("#grattis");
+
     /* variabler */
     let namn1;
     let namn2;
+
+    let hp1 = 100;
+    let hp2 = 100;
 
     let poang1 = 0;
     let poang2 = 0;
@@ -32,8 +37,37 @@ function start()
     });
 
     eKnappStart.addEventListener('click', function () {
-        let n = Math.ceil(Math.random() * 20 + 5);
-        console.log(n);
+        let n1 = Math.ceil(Math.random() * 20 + 5);
+        let n2 = Math.ceil(Math.random() * 20 + 5   );
+        hp1 -= n1;
+        hp2 -= n2;
+        eP.textContent = "";
+
+        if (hp1 < 1 && hp2 < 1)
+        {
+            hp2 = 100;
+            hp1 = 100;
+            eP.textContent = "Oavgjort";
+        }
+        else if (hp1 < 1)
+        {
+            poang2++;
+            hp2 = 100;
+            hp1 = 100;
+            eP.textContent = namn2 + " vann!!!!!!!!!!!";
+        }
+        else if (hp2 < 1)
+        {
+            poang1++;
+            hp1 = 100;
+            hp2 = 100;
+            eP.textContent = namn1 + " vann!!!!!!!!!!!";
+        }
+        vinstera(poang1, poang2);
+        eHp1.textContent = hp1;
+        eHp2.textContent = hp2;
+        console.log(eP.textContent);
+        
     });
 
     function vinstera(p1, p2) {
