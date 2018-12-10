@@ -8,12 +8,22 @@ function start()
             zoom: 15// starting zoom
     });    
     
-    let marker1 = new mapboxgl.Marker() // är skapar vi en marker
-        .setLngLat([18.056501, 59.312719]) // Här ger vi markern en position
-        .addTo(map); // Här läger vi till markern på kartan
+    let popup1 = new mapboxgl.Popup()
+        .setHTML("<p>Här bor jag</p>")
+        .addTo(map);
+    
+    let marker1 = new mapboxgl.Marker()
+        .setLngLat([18.056501, 59.312719]) 
+        .setPopup(popup1)
+        .addTo(map);
+    
+    let popup2 = new mapboxgl.Popup()
+        .setHTML("<p>Här är tantolunden</p>")
+        .addTo(map);
     
     let marker2 = new mapboxgl.Marker()
-        .setLngLat([18.046501, 59.312619])
+        .setLngLat([18.049107, 59.313086])
+        .setPopup(popup2)
         .addTo(map);
 }
 start();
