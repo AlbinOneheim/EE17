@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prov2c</title>
+    <link rel="stylesheet" href="prov2c.css">
+    <script src="prov2c.js" defer></script>
+</head>
+<body>
+    <div class="kontainer">
+        <img src="http://cdn2.cdnme.se/cdn/7-2/104740/images/2012/adlibris_508f9c5bddf2b37328000f26.gif" alt="">
+        <table>
+            <tr class="rubrik">
+                <th colspan="3">Steg 1 - Din kundvagn</th>
+            </tr>
+            <tr>
+                <td class="kol1"><img src="https://z1.adlibris.com/35/34b939d2-1662-4d26-b57f-468e013b1164.jpg?width=100&height=100" alt=""> <strong>Infekterad Lysande Stressboll</strong><br>
+                    Kruger & Gregoriades</td>
+                <td class="kol2"><input type="text" id="vara1" value="1"></td>
+                <td class="kol3">39 kr</td>
+            </tr>
+            <tr>
+                <td><img src="https://s2.adlibris.com/images/43394548/pippi-parpussel-jul.jpg" alt=""> <strong>Pippi parpussel: Jul</strong><br>
+                    Astrid Lindgren, Ingrid Vang Nyman, Karin Johansson
+                </td>
+                <td><input type="text" id="vara2" value="1"></td>
+                <td>102 kr</td>
+            </tr>
+            <tr class="rubrik">
+                <th colspan="3">Steg 2 - Frakt & leverans</th>
+            </tr>
+            <tr>
+                <td>Frakt</td>
+                <td><select id="frakt">
+                        <option value="19">Postnord 19kr</option>
+                        <option value="59">DHL 59kr</option>
+                    </select></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Använd rabattkod (5599 ger -29kr)</td>
+                <td><input type="text" id="rabattkod" value="ej kod"></td>
+                <td></td>
+            </tr>
+            <tr class="rubrik">
+                <th colspan="3">Steg 3 - Slutför köp</th>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td><button>Slutför</button></td>
+                <td><input type="text" id="total"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
