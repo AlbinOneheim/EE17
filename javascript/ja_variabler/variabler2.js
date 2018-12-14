@@ -14,9 +14,7 @@ function start()
     {
         let talet = Number(eTalet.value);
 
-        let summaUp = talet + 1;
-
-        eTalet.value = summaUp;
+        eTalet.value = talet + 1;
     }
 
     eKnapp2.addEventListener("click", rankaNed);
@@ -24,19 +22,15 @@ function start()
     {
         let talet = Number(eTalet.value);
 
-        let summaNed = talet - 1;
-
-        eTalet.value = summaNed;
+        eTalet.value = talet - 1;
     }
     
     eKnapp3.addEventListener("click", laggTill);
     function laggTill()
     {
         let talet = Number(eTalet.value);
-
-        let summaLaggTill = talet + 9000;
-
-        eTalet.value = summaLaggTill;
+        
+        eTalet.value = talet + 9000;
     }
 
     eKnapp4.addEventListener("click", nollStall);
@@ -44,9 +38,7 @@ function start()
     {
         let talet = Number(eTalet.value);
 
-        let startaOm = talet * 0;
-
-        eTalet.value = startaOm;
+        eTalet.value = talet * 0;
     }
 
     eKnapp5.addEventListener("click", taBort);
@@ -54,8 +46,6 @@ function start()
     {
         let talet = Number(eTalet.value);
 
-        let taBort = talet - 9000;
-
-        eTalet.value = taBort;
+        eTalet.value = talet - 9000;
     }
 }
