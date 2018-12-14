@@ -34,6 +34,7 @@ label
 input, button
 {
     padding: 10px;
+    cursor: pointer;
 }
 img 
 {

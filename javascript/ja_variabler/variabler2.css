@@ -31,7 +31,8 @@ label
     text-align: right;
     align-self: center;
 }
-input, button
+button
 {
     padding: 10px;
+    cursor: pointer;
 }
