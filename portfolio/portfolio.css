@@ -1,0 +1,117 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+
+}
+.kontainer
+{
+
+}
+header
+{
+    
+}
+header h1
+{
+
+}
+header h2
+{
+
+}
+header nav
+{
+
+}
+header ul
+{
+
+}
+header li
+{
+
+}
+header  
+{
+
+}
+main
+{
+
+}
+main .innehall
+{
+
+}
+main article
+{
+
+}
+main h3
+{
+
+}
+main figure
+{
+
+}
+main img
+{
+
+}
+main figcaption
+{
+
+}
+main p
+{
+
+}
+main a
+{
+
+}
+aside
+{
+
+}
+aside section
+{
+
+}
+aside h4
+{
+
+}
+aside ul
+{
+
+}
+aside li
+{
+
+}
+aside a
+{
+
+}
+footer
+{
+
+}
+footer p
+{
+
+}
