@@ -13,11 +13,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 body
 {
-
+    background: url(./bilder/aperture-vintage-346923-unsplash.jpg);
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    margin: auto;
 }
 .kontainer
 {
-
+    width: 960px;
+    margin: auto;
+    
 }
 header
 {
@@ -25,15 +30,24 @@ header
 }
 header h1
 {
-
+    color: #fff;
 }
 header h2
 {
-
+    color: #fff;
 }
 header nav
 {
-
+    background: -webkit-linear-gradient(top, #b5bdc8 17%,#b5bdc8 17%,#828c95 100%,#828c95 100%,#28343b 100%,#828c95 100%,#828c95 101%,#828c95 101%);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+header a
+{
+    text-decoration: none;
+    color: #000;
+    margin-right: 40px;
 }
 header ul
 {
@@ -41,19 +55,22 @@ header ul
 }
 header li
 {
-
+    display: inline;
 }
 header  
 {
-
+    padding: 10px;
+    
 }
 main
-{
-
+{ 
+    display: grid;
+    grid-template-columns: 650px 280px;
+    justify-content: space-between;
 }
 main .innehall
 {
-
+    
 }
 main article
 {
@@ -61,7 +78,9 @@ main article
 }
 main h3
 {
-
+    padding: 10px;
+    color: white;
+    margin-left: 50px;
 }
 main figure
 {
@@ -69,7 +88,8 @@ main figure
 }
 main img
 {
-
+    width: 500px;
+    margin: auto;
 }
 main figcaption
 {
@@ -77,7 +97,7 @@ main figcaption
 }
 main p
 {
-
+    
 }
 main a
 {
@@ -85,11 +105,14 @@ main a
 }
 aside
 {
-
+      
 }
 aside section
 {
-
+    background-color: green; 
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 aside h4
 {
@@ -113,5 +136,5 @@ footer
 }
 footer p
 {
-
+    text-align: center;
 }
