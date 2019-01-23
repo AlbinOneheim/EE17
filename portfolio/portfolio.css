@@ -22,8 +22,8 @@ body
 }
 .kontainer
 {
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    padding: 20px;
 }
 header
 {
@@ -73,12 +73,8 @@ header
 }
 main
 { 
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 650px 280px;
-    justify-content: space-between;
-    grid-template-areas: 
-    "innehall sidebar";
+    
+    
 }
 main .innehall
 {
@@ -88,6 +84,7 @@ main article
 {
     background: #fbfbfc63;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 main h3
 {
@@ -102,8 +99,7 @@ main figure
 }
 main img
 {
-    width: 500px;
-    margin: auto;
+    width: 100%;
 }
 main figcaption
 {
@@ -162,3 +158,33 @@ footer p
     text-align: center;
     margin-top: 20px;
 }
+ @media (min-width: 640px)
+{
+    main
+    {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        justify-content: space-between;
+        grid-template-areas: 
+        "innehall"
+        "sidebar";
+    }
+}
+@media (min-width: 960px)
+{
+    .kontainer
+    {
+        width: 960px;
+        margin: auto;
+    }
+    main
+    {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 650px 280px;
+        justify-content: space-between;
+        grid-template-areas: 
+        "innehall sidebar"; 
+    }
+} 
