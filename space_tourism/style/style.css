@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Cinzel|Crimson+Text|Open+Sans');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: #eee;
+}
+.container
+{
+    width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow:  0 0 30px rgb(160, 158, 158);
+}
+header
+{
+    padding: 30px;
+    text-align: center;
+}
+header h1
+{
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+}
+header nav
+{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+header li 
+{
+    display: inline;
+}
+header li a
+{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #d89033;
+    transition-duration: 500ms;
+    text-decoration: none;
+}
+header li a:hover
+{
+    color: #965b0e; 
+    border-bottom: 2px solid #965b0e;    
+}
+header li .active
+{
+    color: #000; 
+    border-bottom: 2px solid #000;    
+}
+main
+{
+    padding: 30px;
+}
+main h2
+{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    text-align: center;
+}
+main figure
+{
+    width: 70%;
+    box-shadow: 0 0 1px #000; 
+    margin: auto;
+}
+main figure img
+{
+    width: 100%;
+}
+main figure figcaption
+{
+    font-family: 'Crimson Text', serif;  
+}
+main p
+{
+    font-family: 'Crimson Text', serif;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+footer p
+{
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+}

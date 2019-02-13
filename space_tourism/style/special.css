@@ -1,0 +1,101 @@
+.titan main
+{
+    background: #DADADA; 
+}
+.trappist main
+{
+    background: #6C2E4B;
+}
+.trappist header li a
+{
+    color: rgb(54, 61, 128);
+    transition-duration: 500ms;
+}
+.trappist header li .active
+{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+.trappist header li a:hover
+{
+    color: rgb(82, 93, 192);
+    border-bottom: 2px solid rgb(82, 93, 192); 
+}
+.wanderer video
+{
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50% -50%);
+}
+.wanderer .container
+{
+    background: none;
+    box-shadow: none;
+    color: white;
+}
+.wanderer header li a
+{
+    color: rgb(10, 10, 167);
+    transition-duration: 500ms; 
+}
+.wanderer header li .active
+{
+    color: #fff; 
+    border-bottom: 2px solid #fff;
+}
+.wanderer header li a:hover
+{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.wanderer main blockquote
+{
+    text-align: center;
+}
+.wanderer footer p
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.ceres main
+{
+    background: #0A1952;
+    color: rgb(182, 180, 180);
+}
+.ceres nav li a
+{
+    color: #10202F;
+}
+.ceres nav li a:hover
+{
+    color: rgb(37, 81, 158);
+    border-bottom: 2px solid rgb(37, 81, 158); 
+}
+.enceladus main
+{
+    background: #9FEFCA;
+}
+.enceladus nav li a
+{
+    color: rgb(64, 184, 128); 
+}
+.enceladus nav li a:hover
+{
+    color: #9FEFCA;
+    border-bottom: 2px solid #9FEFCA; 
+}
+.enceladus nav li .active
+{
+    color: #000;
+    border-bottom: 2px solid #000; 
+}
