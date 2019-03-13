@@ -1,0 +1,21 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+main #rexclub
+{
+    width: 200px;
+}
+main #Electrowerkz
+{
+    width: 150px;
+} 

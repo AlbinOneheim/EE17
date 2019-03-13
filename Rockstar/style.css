@@ -1,0 +1,101 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+header .hb
+{
+    width: 100%;
+    height: 350px;
+}
+header .hl
+{
+    width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    border-radius: 50%;
+}
+header h2
+{
+    position: absolute;
+    top: 60px;
+    left: 20%;
+    color: #fff;
+    background: black;
+    padding: 10px;
+}
+header ul
+{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+header li 
+{
+    list-style-type: none;
+    display: inline;
+}
+header li a
+{
+    text-decoration: none;
+    color: #000;
+    margin-left: 100px;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+header li a:hover
+{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+header li .active
+{
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+main
+{
+    margin-top: 50px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+main #Eurotrash
+{
+    width: 150px;
+    border-radius: 50%;
+}
+main #NitroHeaven
+{
+    width: 150px;
+}
+main figcaption
+{
+   width: 180px;
+}
+footer
+{
+    box-shadow: 1px 1px 1px 1px #000;
+    padding: 10px;
+}
+footer li 
+{
+    display: inline;
+}
+footer li a 
+{
+    text-decoration: none;
+    color: #000;
+    margin-left: 150px;
+    position: relative;
+    left: 25%;
+}
