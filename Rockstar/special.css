@@ -11,11 +11,17 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+.kontainer
+{
+    width: 700px;
+    background: green;
+    display: grid;;
+}
 main #rexclub
 {
     width: 200px;
 }
-main #Electrowerkz
+figure #Electrowerkz
 {
     width: 150px;
 } 
