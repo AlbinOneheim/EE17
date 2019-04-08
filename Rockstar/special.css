@@ -11,17 +11,31 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-.kontainer
+.page2 .kontainer
 {
+    position: relative;
+    top: 0;
+    left: 25%;
     width: 700px;
     background: green;
-    display: grid;;
+    overflow: hidden;
 }
-main #rexclub
+figure #rexclub
 {
-    width: 200px;
+    width: 300px;
+    float: right;
+    margin-right: 30px;
 }
 figure #Electrowerkz
 {
-    width: 150px;
+    width: 200px;
+    float: left;
+    margin-top: 50px;
 } 
+.textr
+{
+    float: right;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}

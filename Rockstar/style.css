@@ -62,7 +62,7 @@ header li .active
     color: #fff;
     border-bottom: 1px solid #fff;
 }
-.sida1
+.page1
 {
     margin-top: 50px;
     margin-left: 10%;
@@ -98,4 +98,8 @@ footer li a
     margin-left: 150px;
     position: relative;
     left: 25%;
+}
+footer li a:hover
+{
+    color: blue;
 }
